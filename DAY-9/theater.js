@@ -23,8 +23,8 @@ boxes.forEach(box => {
        }else{
         box.classList.remove('B_Seats');
         box.classList.add('R_Seats');
-        remaining--;
-        selected++;
+        remaining++;
+        selected--;
         document.querySelector("p.select").innerHTML=selected;
         document.querySelector("p.remain").innerHTML=remaining;
        }
