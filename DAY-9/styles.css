@@ -17,19 +17,17 @@
 }
 
 .booked{
-    background-color: darkcyan;
     display: inline-block;
-    margin: 30px 0px 0px 40%;
+    margin: 30px 0px 0px 30%;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .remaining{
-    background-color: darkcyan;
     display: inline-block;
-    margin: 30px 0px 0px 10px;
+    margin: 30px 0px 0px 10rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .B_Seats{
@@ -51,4 +49,8 @@
 .Box:hover{
     cursor: pointer;
     background-color:rgb(216, 162, 162);
+}
+
+h4, p{
+    display: inline-block;
 }
