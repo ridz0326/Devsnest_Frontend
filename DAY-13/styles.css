@@ -42,7 +42,7 @@ button:hover {
     height: strech;
     font-size: 1.4rem;
     font-family: 'Merriweather';
-    background: rgba(228, 226, 98, 0.699);
+    background: red;
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
