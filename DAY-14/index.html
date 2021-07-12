@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <button onclick="clicked()">Click Me</button>
+        <video width="420" height="340" controls onplay="play_video()" onpause="pause_video()">
+            <source src="./La casa de papel - Bella Ciao.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        <button class="hoverme" onfocus="hover_here()"> Focus On Me </button>
+
+        <button id="myBtn" onmouseover="m_over()" onmouseout="m_out()">Try it</button>
+        <p id="demo"></p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
