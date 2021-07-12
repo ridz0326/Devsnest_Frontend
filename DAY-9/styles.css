@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: inline-block;
+    border-radius: 8px;
+    width: 79%;
+    height: 772px;
+    margin: 10px 10% ;
+    margin-top: 5rem;
+    padding: 10px;
+    padding-left: 10px;
+    background-color: rgb(184, 84, 84);
+}
+
+.booked{
+    display: inline-block;
+    margin: 30px 0px 0px 30%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+.remaining{
+    display: inline-block;
+    margin: 30px 0px 0px 10rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+.B_Seats{
+    background-color: darkseagreen;
+}
+
+.R_Seats{
+    background-color: darkred;
+}
+
+.Box{
+    border-radius: 7px;
+    display:inline-table;
+    height: 50px;
+    width: 80px;
+    margin: 0px 1px;
+}
+
+.Box:hover{
+    cursor: pointer;
+    background-color:rgb(216, 162, 162);
+}
+
+h4, p{
+    display: inline-block;
+}

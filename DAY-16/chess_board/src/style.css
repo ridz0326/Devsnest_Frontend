@@ -1,0 +1,30 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing:border-box;
+}
+#root{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+.container :nth-child(odd){
+  background-color: white;
+  
+}
+.container :nth-child(even){
+  background-color: black;
+  
+}
+
+.container{
+  border: 20px solid black;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(9,1fr);
+  width: 200px;
+  height: 200px;
+}
