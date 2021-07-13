@@ -1,79 +1,54 @@
 let questions = [
   {
-    question: "Name the town in which The Vampire Diaries is located?",
-    options: ["Mystic Falls", "The Cave", "The Falls", "Mystical Land"],
-    answer: 0,
+    question: "What was the Professor's real name?",
+    options: ["Ricardo Ramos", "Sergio Marquina", "Andres de Fonollosa", "Agustin Ramos"],
+    answer: 1,
   },
   {
-    question: "Who was the first one in taking the cure?",
-    options: ["Katherine", "Rebekah", "Klaus", "Stefan"],
-    answer: 0,
+    question: "Who planned the Bank of Spain heist?",
+    options: ["The Professor's father", "The Professor", "Berlin", "Palermo"],
+    answer: 2,
   },
   {
-    question: " Bonnie started college later than the other girls, why's that?",
-    options: [
-      "She was dead",
-      "She didn't wanted to start so soon",
-      "She was with her family",
-      "She was in Coma",
-    ],
-    answer: 0,
+    question: "What was the relation between Berlin and The Professor?",
+    options: ["Best Friend","Friend's Brother","Real Brother","Lovers"],
+    answer: 2,
   },
   {
-    question: "What is the thing that Klaus needs to make hybrids?",
-    options: [
-      "Elena's Blood",
-      "A Child's Blood",
-      "His Mother's Blood",
-      "Lonnie's Blood",
-    ],
-    answer: 0,
+    question: "Where did Raquel find The Professor after the first heist?",
+    options: ["Sri Lanka","Maldives","Indonesia","Thailand"],
+    answer: 3,
   },
   {
-    question: "What is the main reason that Stefan was attracted to Elena?",
-    options: [
-      "Because she looked like Katherine",
-      "Because he wanted to kill her",
-      "Because he saved her",
-      "Because she was pretty",
-    ],
-    answer: 0,
+    question: "Who was Gandia?",
+    options: ["Hostage","Robber","S.W.A.T","Personal Security Guard"],
+    answer: 3,
   },
   {
-    question: "What is the thing that protects Stefan and Damon from the sun?",
-    options: [
-      "The rings they have",
-      "Because they were turned by a doppalganger",
-      "The blood they have",
-      "Because they have the power to tolerate sun rays",
-    ],
-    answer: 0,
+    question: "Rio was known for committing which crime before his heist days?",
+    options: ["Runaway robbing","Jewellery stealing","Computer hacking","Running a drug racket"],
+    answer: 2,
   },
   {
-    question: " Who started Elena's doppelganger line?",
-    options: ["Amara", "Tatia", "Katherine", "Elena"],
-    answer: 0,
+    question: "What is the real name of Tokyo in Money Heist?",
+    options: ["Alicia Sierra", "Silene Oliveira", "Ágata Jiménez", "Mónica Gaztambide"],
+    answer: 1,
   },
   {
-    question: " Who are the vampire brothers?",
-    options: [
-      "Stefan and Damon",
-      "Klaus and Elija",
-      "Klaus and Kol",
-      "Enzo and Alaric",
-    ],
-    answer: 0,
+    question: "How many robbers died till the 2nd heist?",
+    options: ["Three","Four","Five","Six"],
+    answer: 1,
   },
   {
     question:
-      " What was Stefan known as when he started drinking human blood and killed them?",
-    options: ["Ripper", "Vamp", "Alien", "Dog"],
-    answer: 0,
+      "How does Professor tell Raquel that he knows she is alive?",
+    options: ["He sent a letter to her","He calls her", "He surrender himself", "He sent his watch"],
+    answer: 3,
   },
   {
-    question: "What did the vampires hate?",
-    options: ["Vervain", "Chocolate", "Roses", "Garlic"],
-    answer: 0,
+    question: "How much money does the gang steal from the heist at Royal Mint of Spain?",
+    options: ["850 Million", "899 Million", "900 Million", "984 Million"],
+    answer: 3,
   },
 ];
 
@@ -168,5 +143,5 @@ function check(option, currQues, optionButton) {
     quesArray[currQuesNo].classList.remove("curr-quiz");
     currQuesNo++;
     quesArray[currQuesNo].classList.add("curr-quiz");
-  }, 1500);
+  }, 1000);
 }

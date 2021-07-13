@@ -8,12 +8,12 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
-  background-color: rgba(223, 216, 123, 0.829);
+  background-image: url(./elbashayer.com-2020-04-02_12-53-05_796303.jpg);
+  
 }
 
 .quiz-container {
   margin: 80px auto;
-
   width: 70%;
   height: 70%;
   flex-direction: column;
@@ -22,22 +22,24 @@ body {
 }
 
 .heading {
-  background-color: rgb(41, 35, 35);
-  color: rgb(255, 208, 0);
-  padding: 20px;
+  background: rgba( 43, 36, 36, 0.65 );
+  box-shadow: 0 2px 2px 0 rgba( 31, 38, 135, 0.37 );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  color: #c29023c0;
+  padding: 25px;
   display: flex;
   justify-content: space-around;
-  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
   font-weight: 600;
-  text-transform: uppercase;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
 }
 
 .quiz-section {
-  background-color: rgb(41, 35, 35);
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  background: rgba( 43, 36, 36, 0.65 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
   height: 100%;
 }
 
@@ -56,20 +58,22 @@ body {
 
 .quiz-ques {
   flex: 1;
-  background-color: rgb(255, 208, 0);
+  background: rgb(176,36,36, 0.65);
+  box-shadow: 0 2px 20px 0 rgba( 31, 38, 135, 0.37 );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
   display: flex;
   align-items: center;
   justify-content: center;
   text-transform: capitalize;
-  padding: 5px 10px;
-  font-size: 1rem;
-  font-weight: 500;
+  padding: 4px;
+  font-size: 2rem;
+  font-family: 'Merriweather', serif; 
   width: 100%;
 }
 
 .quiz-option {
   flex: 3;
-  background-color: rgb(41, 35, 35);
   display: flex;
   flex-direction: column;
   width: 70%;
@@ -78,23 +82,32 @@ body {
 }
 
 .option {
-  padding: 10px 0;
-  background-color: rgb(41, 35, 35);
-  color: rgb(255, 208, 0);
-  font-weight: 500;
-  border: 2px solid rgb(255, 208, 0);
+  padding: 15px 0;
+  background: rgba( 43, 36, 36, 0.65 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   border-radius: 10px;
+  color: #c29023c0;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  border: 1px solid #c29023c0;
 }
 
 .option:active {
-  background-color: rgb(255, 208, 0);
-  color: rgb(41, 35, 35);
+  background-color: transparent;
   font-weight: 500;
 }
 
 .wrong {
-  background-color: rgb(236, 25, 17);
+  background-color: rgb(153, 9, 4);
+  color: #dbb35dc0;
+  font-weight: 700;
+
+  
 }
 .correct {
   background-color: rgb(4, 128, 0);
+  color: #dbb35dc0;
+  font-weight: 700;
+
 }
