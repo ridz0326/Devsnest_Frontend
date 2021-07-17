@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@600;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 30vw;
+  height:50vh;
+  overflow: auto;
+  margin: auto;
+  margin-top: 50px;
+  padding: 10px;
+  background: rgba( 255, 255, 255, 0.55 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.card {
+  width: 26vw;
+  margin: 10px;
+  padding: 20px 10px;
+  background: rgb(107,142,35);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  font-family: 'Merriweather Sans', sans-serif !important;
+}
