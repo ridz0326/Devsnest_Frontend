@@ -27,5 +27,27 @@
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
-  font-family: 'Merriweather Sans', sans-serif !important;
+  /* font-family: 'Merriweather Sans', sans-serif !important; */
 }
+
+button {
+  margin: 10px;
+  margin-top: -70px;
+  padding: 5px;
+  float: right;
+  background: rgba(243, 230, 230, 0.6);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  border-radius: 5px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  font-size: 1.8vh;
+  cursor: pointer;
+}
+
+.nothing {
+  display: flex;
+  height: 100%;
+  margin: auto;
+  align-items:center;
+  justify-content: center;
+}
+
