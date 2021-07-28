@@ -19,7 +19,7 @@ function App(props) {
             {(cards.length > 0)? 
             cards.map((val, index) => 
             <Card food={val.food} calorie={val.calorie} key={index} vals={cards} index={index} setCards={setCards} />
-            ): <h2 className="nothing">No Entry Found </h2>
+            ): <h2 className="nothing">No Entry Found</h2>
             }
         </div>
         </>

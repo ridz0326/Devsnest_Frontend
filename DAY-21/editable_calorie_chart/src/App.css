@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #330033;
+  background-image: url("https://data.whicdn.com/images/342352845/original.gif");
+  background-position-y: 0.5px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  height: 98vh;
+}
+
+.form {
+  width: 50%;
+  padding: 10px;
+  margin: auto;
+}
+
+.wrapper {
+  /* height: 10vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.form input {
+ padding: 7px;
+ margin: 5px; 
+ width: 50%;
+ border-radius: 3px;
+ box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+ border-radius: 5px;
+ border: 3px solid rgba(255, 193, 7, 0.603);
+ font-weight: 300;
+}
+
+.submit {
+  width: 97%;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 3px;
+  outline: none;
+}
+
+
+.inputs {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.submit {
+  padding: 8px;
+  outline: none;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 2px 14px -2px rgba(128, 128, 128, 0.521);
+  width: 100%;
+  background-color: #ffc107;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  font-size:medium;
+  background: rgb(255,193,7, 0.75 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.submit:hover {
+  background-color: #ffc107b2;
+  box-shadow: 0 6px 18px -2px rgba(128, 128, 128, 0.521);
+}
+
+.submit:active {
+  transform: translateY(0.5px);
+}
+
+.items {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .form {
+    width: 90%;
+  }
+
+  .inputs {
+    flex-direction: column;
+  }
+
+  .form input {
+    width: 100%;
+  }
+}
+
+@media (min-width: 601px) AND (max-width: 1024px) {
+  .form {
+    width: 80%;
+  }
+
+  .form input {
+    width: 100%;
+  }
+}

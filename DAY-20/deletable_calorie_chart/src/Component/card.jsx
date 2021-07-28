@@ -1,5 +1,4 @@
 import React from 'react'
-// import App from '../App';
 
 function Card({food,calorie,vals,index,setCards}) {  
     return(
