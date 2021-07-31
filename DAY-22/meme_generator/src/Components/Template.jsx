@@ -7,10 +7,10 @@ const Templates = ({ templates, setMeme }) => {
                 <div key={template.id} className="template" onClick={() => {
                     setMeme(template)
                 }}>
-                    <div
-                        style={{ backgroundImage: `url(${template.url})` }}
+                    <img
+                        src={template.url}
                         className="image">
-                    </div>
+                    </img>
                 </div>
             ))}
         </div>
