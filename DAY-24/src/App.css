@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  align-items: center;
+  font-size: calc(3px + 2vmin);
+  color: white;
+}
+
+.navbar {
+  flex-direction:row;
+  align-content:center;
+  justify-content:center;
+  background-color:#12a1c9;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  margin: 5px auto;
+  padding: 1rem;
+  font-weight:600;
+}
+
+.deco{
+  color: white;
+  border-bottom: 1px solid brown;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:active {
+  color: #551A8B;
+}
+
